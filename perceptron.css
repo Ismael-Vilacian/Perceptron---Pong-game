@@ -1,0 +1,30 @@
+.container-tabuleiro {
+    position: relative;
+    width: 500px;
+    height: 350px;
+}
+
+#tabuleiro {
+    width: 500px;
+    height: 350px;
+    background: black;
+}
+
+#jogador {
+    width: 5px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+
+#bola {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}

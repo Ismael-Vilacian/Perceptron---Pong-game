@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="perceptron.css" media="screen" />
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="container-tabuleiro">
+            <canvas id="tabuleiro"></canvas>
+            <canvas id="jogador"></canvas>
+            <canvas id="bola"></canvas>
+        </div>
+        <div style="margin-left: 23px; font-size: 30px;">
+            Pontuação: <span id="pontuacao">0</span><br>
+            Peso entrada 1: <span id="peso-1">0</span> <br>
+            Peso entrada 2: <span id="peso-2">0</span> <br>
+
+            <div>
+                <button style="margin-right: 15px;" class="iniciar-trinamento" onclick="iniciarTreinamento()">Treinar</button>
+                <button class="iniciar-trinamento" onclick="iniciarTreinamento(true)">Usar peso ideal</button>
+            </div>
+        </div>
+    </div>
+    <script src="perceptron.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
