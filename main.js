@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     iniciar();
 });
-
+ 
 var velocidade = 1;
 var perceptronTreinado;
 
